@@ -9,7 +9,8 @@ import java.util.regex.Pattern;
 public class Day3 {
 
     public static void main(String[] args) throws IOException {
-        String inputs = Files.readString(Path.of("inputs/day3Input"));
+        // 2024/adventOfCode/src/main/resources/inputs/2024/day3Input
+        String inputs = Files.readString(Path.of("src/main/resources/inputs/2024/day3Input"));
 
         System.out.println("day 3 step 1:" + solveStep1(inputs));
         System.out.println("day 3 step 2:" + solveStep2(inputs));

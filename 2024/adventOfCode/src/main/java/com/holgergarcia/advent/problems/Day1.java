@@ -11,7 +11,7 @@ import java.util.List;
 public class Day1 {
 
     public static void main(String[] args) throws IOException {
-        List<String> inputs = Files.readAllLines(Path.of("inputs/day1Input"));
+        List<String> inputs = Files.readAllLines(Path.of("src/main/resources/inputs/2024/day1Input"));
 
         System.out.println("day1 solution part 1: " + solutionPart1(inputs));
         System.out.println("day1 solution part 2: " + solutionPart2(inputs));

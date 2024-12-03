@@ -9,7 +9,7 @@ import java.util.List;
 public class Day2 {
 
     public static void main(String[] args) throws IOException {
-        List<String> inputs = Files.readAllLines(Path.of("inputs/day2Input"));
+        List<String> inputs = Files.readAllLines(Path.of("src/main/resources/inputs/2024/day2Input"));
         List<List<Integer>> lines = new ArrayList<>();
 
         inputs.forEach(input -> {
