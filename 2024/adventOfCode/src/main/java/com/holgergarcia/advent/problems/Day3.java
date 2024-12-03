@@ -9,16 +9,13 @@ import java.util.regex.Pattern;
 public class Day3 {
 
     public static void main(String[] args) throws IOException {
-        // 2024/adventOfCode/src/main/resources/inputs/2024/day3Input
         String inputs = Files.readString(Path.of("src/main/resources/inputs/2024/day3Input"));
 
         System.out.println("day 3 step 1:" + solveStep1(inputs));
         System.out.println("day 3 step 2:" + solveStep2(inputs));
-
     }
 
     static int solveStep1(String input) {
-        // mul(2,4)
         Pattern regex = Pattern.compile("mul\\(-?\\d+,-?\\d+\\)");
         Matcher matcher = regex.matcher(input);
 
@@ -33,7 +30,6 @@ public class Day3 {
 
             result += Integer.parseInt(cleanGroup[0]) * Integer.parseInt(cleanGroup[1]);
         }
-
         return result;
     }
 
