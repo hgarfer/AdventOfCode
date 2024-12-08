@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day4 {
+public class Day4 { 
 
     public static void main(String[] args) throws IOException {
         List<String> inputs = Files.readAllLines(Path.of("src/main/resources/inputs/2024/day4Input"));
