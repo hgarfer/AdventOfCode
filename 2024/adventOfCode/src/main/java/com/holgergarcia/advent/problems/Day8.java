@@ -7,11 +7,22 @@ import java.util.List;
 
 public class Day8 {
 
-        public static void main(String[] args) throws IOException{
-         List<String> inputs = Files.readAllLines(Path.of("src/main/resources/inputs/2024/day8Input"));
+    public static void main(String[] args) throws IOException {
+        List<String> inputs = Files.readAllLines(Path.of("src/main/resources/inputs/2024/day8Input"));
 
         System.out.println("day 8 step 1:" + solveStep1(inputs));
         System.out.println("day 8 step 2:" + solveStep2(inputs));
     }
 
+    static int solveStep1(List<String> inputs) {
+        int result = 0;
+
+        return result;
+    }
+
+    static int solveStep2(List<String> inputs) {
+        int result = 0;
+
+        return result;
+    }
 }
