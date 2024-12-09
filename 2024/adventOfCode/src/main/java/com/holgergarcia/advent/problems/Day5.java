@@ -17,6 +17,8 @@ public class Day5 {
     static int solveStep1(List<String> inputs) {
         int result = 0;
 
+
+
         return result;
     }
 
