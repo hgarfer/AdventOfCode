@@ -11,8 +11,10 @@ updates:
       - "**/*"
    schedule:
      interval: weekly
+     day: "friday"
  - package-ecosystem: "maven"
    directories:
       - "**/*"
    schedule:
      interval: weekly
+     day: "friday"
